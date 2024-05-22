@@ -2,7 +2,7 @@
 
 ## Building tDAR image
 
-To run tDAR in Docker, first build the tDAR image by running `docker build -t tdar-web .` from the root directory (where the Dockerfile is located). Depending on your operating system, you might have to change the phantomjs version and remove the line `ENV QT_QPA_PLATFORM offscreen`.
+To run tDAR in Docker, first build the tDAR image by running `docker build -t tdar-web .` from the root directory (where the Dockerfile is located). Depending on your operating system, you might have to change the platform argument in the `FROM` line, the phantomjs version, and remove the line `ENV QT_QPA_PLATFORM offscreen`.
 
 ## Creating database folders
 
